@@ -1,30 +1,9 @@
-# React + TypeScript + Vite
+Daily Delights is a Chrome extension that enhances your browsing experience by replacing your browser's default view with a daily selection of ghazals, poems, music, and more. Each day, you'll be greeted with a fresh piece of content designed to inspire, relax, and entertain you.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Features
+Daily Ghazals: Enjoy a new ghazal each day, carefully selected for its beauty and depth.
+Poetry: Discover a diverse range of poems, from classic to contemporary, that will stir your soul.
+Music: Listen to a handpicked song or instrumental piece every day, spanning various genres and cultures.
+Seamless Integration: Automatically replaces the default new tab page with the daily content.
+User-friendly Interface: Clean and simple design for a distraction-free experience.
+Enjoy your daily dose of art and culture with Daily Delights!
